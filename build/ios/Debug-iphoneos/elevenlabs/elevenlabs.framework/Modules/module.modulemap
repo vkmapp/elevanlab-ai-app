@@ -1,0 +1,11 @@
+framework module elevenlabs {
+  umbrella header "elevenlabs-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module elevenlabs.Swift {
+  header "elevenlabs-Swift.h"
+  requires objc
+}
